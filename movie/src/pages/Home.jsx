@@ -34,8 +34,8 @@ function Home (){
         setLoading(true)
         try{
             const seachResults = await searchMovies(searchQuery)
-            setMovies(seachResults)
-            setError(null)
+            setMovies(seachResults);
+
         } catch(err){
             console.log(err)
             setError("Failed to search movies...")

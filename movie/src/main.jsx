@@ -4,9 +4,9 @@ import {BrowserRouter} from "react-router-dom"
 import './css/index.css'
 import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')).render(   //BrowserRouter act like a context
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter>   
       <App />
     </BrowserRouter> 
   </StrictMode>
